@@ -15,7 +15,7 @@ It builds the following roms:
 * [ ] One-Frame Control Glitch (Fix ability to control for a frame before forced movement).
 * [X] Old Man Glitch (The ability to run into glitch pokemon on Cinnebar Coast, [switch to 8,9](https://discordapp.com/channels/333356453928894466/333366468794122240/672666681906298920)).
 * [ ] [Evolutionary stone bypass](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Evolutionary_stone_bypassing)
-* [ ] [Oak's pokeball delivery text overlap](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Oak_Pok.C3.A9_Ball_delivery_text_overlapping)
+* [X] [Oak's pokeball delivery text overlap](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Oak_Pok.C3.A9_Ball_delivery_text_overlapping)
 * [ ] [Pewter Gym Skip](https://bulbapedia.bulbagarden.net/wiki/Pewter_Gym_skip_glitch)
 * [ ] [Broken hidden items](https://bulbapedia.bulbagarden.net/wiki/Broken_hidden_items)
 * [ ] Trainer Fly (ability to pause the frame before a trainer spots you).
