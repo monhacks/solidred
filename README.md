@@ -33,8 +33,10 @@ It builds the following roms:
 * [ ] [Catch rate errors](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Catch_rate_errors)
 * [ ] [Division by 0 errors](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Division_by_0)
 * [X] [Biking Reset Oversight](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Save_reset_oversight)
+* [X] [Psywave Desync Bug](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Psywave_desynchronization) (Psywave always does at least 1 damage now.)
 * [ ] [Save-Surf Exploit](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Save_Surf_exploit)
 * [ ] ...anything else found [here](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I).
 
 ## Things that Won't be Fixed
 * The behavior of the move Wrap.
+* [The Red Bar glitch](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Red_Bar_Glitch)
