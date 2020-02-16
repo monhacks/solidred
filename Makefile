@@ -1,7 +1,7 @@
-roms := pokered.gbc pokeblue.gbc
+roms := solidred.gb solidblue.gb
 
-pokered_obj := audio_red.o main_red.o text_red.o wram_red.o
-pokeblue_obj := audio_blue.o main_blue.o text_blue.o wram_blue.o
+solidred_obj := audio_red.o main_red.o text_red.o wram_red.o
+solidblue_obj := audio_blue.o main_blue.o text_blue.o wram_blue.o
 
 
 ### Build tools
@@ -24,20 +24,20 @@ RGBLINK ?= $(RGBDS)rgblink
 .PHONY: all red blue clean tidy compare tools
 
 all: $(roms)
-red: pokered.gbc
-blue: pokeblue.gbc
+red: solidred.gb
+blue: solidblue.gb
 
 # For contributors to make sure a change didn't affect the contents of the rom.
 compare: $(roms)
 	@$(MD5) roms.md5
 
 clean:
-	rm -f $(roms) $(pokered_obj) $(pokeblue_obj) $(roms:.gbc=.sym)
+	rm -f $(roms) $(solidred_obj) $(solidblue_obj) $(roms:.gb=.sym)
 	find . \( -iname '*.1bpp' -o -iname '*.2bpp' -o -iname '*.pic' \) -exec rm {} +
 	$(MAKE) clean -C tools/
 
 tidy:
-	rm -f $(roms) $(pokered_obj) $(pokeblue_obj) $(roms:.gbc=.sym)
+	rm -f $(roms) $(solidred_obj) $(solidblue_obj) $(roms:.gb=.sym)
 	$(MAKE) clean -C tools/
 
 tools:
@@ -54,18 +54,18 @@ endif
 %.asm: ;
 
 %_red.o: dep = $(shell tools/scan_includes $(@D)/$*.asm)
-$(pokered_obj): %_red.o: %.asm $$(dep)
+$(solidred_obj): %_red.o: %.asm $$(dep)
 	$(RGBASM) -D _RED -h -o $@ $*.asm
 
 %_blue.o: dep = $(shell tools/scan_includes $(@D)/$*.asm)
-$(pokeblue_obj): %_blue.o: %.asm $$(dep)
+$(solidblue_obj): %_blue.o: %.asm $$(dep)
 	$(RGBASM) -D _BLUE -h -o $@ $*.asm
 
-pokered_opt  = -jsv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON RED"
-pokeblue_opt = -jsv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON BLUE"
+solidred_opt  = -jsv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON RED"
+solidblue_opt = -jsv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON BLUE"
 
-%.gbc: $$(%_obj)
-	$(RGBLINK) -d -n $*.sym -l pokered.link -o $@ $^
+%.gb: $$(%_obj)
+	$(RGBLINK) -d -n $*.sym -l solidred.link -o $@ $^
 	$(RGBFIX) $($*_opt) $@
 	sort $*.sym -o $*.sym
 
