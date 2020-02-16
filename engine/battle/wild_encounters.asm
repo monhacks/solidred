@@ -24,8 +24,8 @@ TryDoWildEncounter:
 	ld [wRepelRemainingSteps], a
 .next
 ; determine if wild pokemon can appear in the half-block we're standing in
-; is the bottom right tile (9,9) of the half-block we're standing in a grass/water tile?
-	coord hl, 9, 9
+; is the bottom left tile (8,9) of the half-block we're standing in a grass/water tile?
+	coord hl, 8, 9 ; previously 9,9 -- this fixes Cinnabar Coast and disables "no encounter" flowers
 	ld c, [hl]
 	ld a, [wGrassTile]
 	cp c
@@ -64,12 +64,10 @@ TryDoWildEncounter:
 ; determine which wild pokemon (grass or water) can appear in the half-block we're standing in
 	ld c, [hl]
 	ld hl, wGrassMons
-	aCoord 8, 9
+	aCoord 8, 9  ; Must match the coords above, see Cinnabar Coast fix above.
 	cp $14 ; is the bottom left tile (8,9) of the half-block we're standing in a water tile?
 	jr nz, .gotWildEncounterType ; else, it's treated as a grass tile by default
 	ld hl, wWaterMons
-; since the bottom right tile of a "left shore" half-block is $14 but the bottom left tile is not,
-; "left shore" half-blocks (such as the one in the east coast of Cinnabar) load grass encounters.
 .gotWildEncounterType
 	ld b, 0
 	add hl, bc

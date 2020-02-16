@@ -13,7 +13,7 @@ It builds the following roms:
 * [ ] Glitch Mons (Provide proper error handling pokemon for undefined/glitch mons).
 * [ ] [Super Glitch](https://bulbapedia.bulbagarden.net/wiki/Super_Glitch_(move)) (provide proper redirect to a move like Splash as error handling).
 * [ ] One-Frame Control Glitch (Fix ability to control for a frame before forced movement).
-* [ ] Old Man Glitch (The ability to run into glitch pokemon on Cinnebar Coast, [switch to 8,9](https://discordapp.com/channels/333356453928894466/333366468794122240/672666681906298920)).
+* [X] Old Man Glitch (The ability to run into glitch pokemon on Cinnebar Coast, [switch to 8,9](https://discordapp.com/channels/333356453928894466/333366468794122240/672666681906298920)).
 * [ ] [Evolutionary stone bypass](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Evolutionary_stone_bypassing)
 * [ ] [Oak's pokeball delivery text overlap](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Oak_Pok.C3.A9_Ball_delivery_text_overlapping)
 * [ ] [Pewter Gym Skip](https://bulbapedia.bulbagarden.net/wiki/Pewter_Gym_skip_glitch)
