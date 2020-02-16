@@ -32,7 +32,7 @@ It builds the following roms:
 * [ ] [Levelling Past 100 oversight](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Leveling_past_100)
 * [ ] [Catch rate errors](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Catch_rate_errors)
 * [ ] [Division by 0 errors](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Division_by_0)
-* [ ] [Biking Reset Oversight](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Save_reset_oversight)
+* [X] [Biking Reset Oversight](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Save_reset_oversight)
 * [ ] [Save-Surf Exploit](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Save_Surf_exploit)
 * [ ] ...anything else found [here](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I).
 

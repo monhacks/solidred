@@ -307,6 +307,7 @@ LinkCanceledText:
 StartNewGame:
 	ld hl, wd732
 	res 1, [hl]
+	res 5, [hl]  ; Fixes Biking Reset Oversight
 	call OakSpeech
 	ld c, 20
 	call DelayFrames
