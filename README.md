@@ -19,7 +19,7 @@ It builds the following roms:
 * [ ] [Pewter Gym Skip](https://bulbapedia.bulbagarden.net/wiki/Pewter_Gym_skip_glitch)
 * [ ] [Broken hidden items](https://bulbapedia.bulbagarden.net/wiki/Broken_hidden_items)
 * [ ] Trainer Fly (ability to pause the frame before a trainer spots you).
-* [ ] Ghost Marowak Bypass Glitch (The ability to use a PokeDoll or Teleport to win the ghostly Marowak fight, init wBattleResult  to 2 at start of battle).
+* [X] Ghost Marowak Bypass Glitch (The ability to use a PokeDoll or Teleport to win the ghostly Marowak fight, init wBattleResult  to 2 at start of battle).
 * [ ] Ghost Identity Unveiling Glitch (The ability to see a wild ghost without the Silph Scope via viewing the stats menu.)
 * [ ] Safari Zone Timer Glitch (The safari timer flag not being saved, allowing the timer to go off outside the zone.)
 * [ ] Glitch City via Safari Zone (The bug where leaving the safari zone building may cause a load into Glitch City if entered via timer expiration.)
