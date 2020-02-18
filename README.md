@@ -26,7 +26,7 @@ It builds the following roms:
 * [ ] [Glitch City](https://bulbapedia.bulbagarden.net/wiki/Glitch_City)
 * [ ] Walk over Walls via Safari Zone (Timer expiration during jumping, step counter should not be decremented mid-jump).
 * [ ] Cooltrainer Glitch (Disallow switching moves with Select in battle [when transformed](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#--), or prevent Cooltrainer glitch some other way).
-* [ ] Ditto Assumption Glitch (Fix problem with transform being used by someone other than Ditto in wild leading to Ditto being caught.)
+* [X] Ditto Assumption Glitch (Fix problem with transform being used by someone other than Ditto in wild leading to Ditto being caught.)
 * [ ] [Item Underflow Glitch](https://bulbapedia.bulbagarden.net/wiki/Item_underflow) (Disallow save game to be loaded when there are -1 items in bag, or prevent item underflow glitch some other way).
 * [ ] [HP Recovery Move Failure](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#HP_recovery_move_failure)
 * [ ] [Levelling Past 100 oversight](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Leveling_past_100)

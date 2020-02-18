@@ -6867,6 +6867,7 @@ InitBattleCommon:
 	res 1, [hl]
 	callab InitBattleVariables
 	ld a, [wEnemyMonSpecies2]
+	ld [wWildMonSpecies], a
 	sub OPP_ID_OFFSET
 	jp c, InitWildBattle
 	ld [wTrainerClass], a
@@ -6875,6 +6876,7 @@ InitBattleCommon:
 	call DoBattleTransitionAndInitBattleVariables
 	call _LoadTrainerPic
 	xor a
+	ld [wWildMonSpecies], a
 	ld [wEnemyMonSpecies2], a
 	ld [hStartTileID], a
 	dec a
