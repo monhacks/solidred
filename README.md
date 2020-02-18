@@ -35,8 +35,12 @@ It builds the following roms:
 * [X] [Biking Reset Oversight](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Save_reset_oversight)
 * [X] [Psywave Desync Bug](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Psywave_desynchronization) (Psywave always does at least 1 damage now.)
 * [ ] [Save-Surf Exploit](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Save_Surf_exploit)
+* [ ] [Transform + Mirror Move/Metronome PP error](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Transform_.2B_Mirror_Move.2FMetronome_PP_error)
 * [ ] ...anything else found [here](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I).
 
+## Things possibly fixed (need to test)
+* [ ] [Mirror Move glitch](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Mirror_Move_glitch)
+
 ## Things that Won't be Fixed
-* The behavior of the move Wrap.
+* The behavior of moves like Bind and Wrap.
 * [The Red Bar glitch](https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_I#Red_Bar_Glitch)
